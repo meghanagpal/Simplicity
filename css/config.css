@@ -1,0 +1,47 @@
+/* ==========================================================================
+   Web Fonts
+   ========================================================================== */
+@font-face {
+    font-family: 'interstate-regular';
+    src: url('../fonts/interstate-light-webfont.eot');
+    src: url('../fonts/interstate-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interstate-light-webfont.woff') format('woff'),
+         url('../fonts/interstate-light-webfont.ttf') format('truetype'),
+         url('../fonts/interstate-light-webfont.svg#interstateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-bold';
+    src: url('../fonts/interstate-regular-webfont.eot');
+    src: url('../fonts/interstate-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interstate-regular-webfont.woff') format('woff'),
+         url('../fonts/interstate-regular-webfont.ttf') format('truetype'),
+         url('../fonts/interstate-regular-webfont.svg#interstateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'interstate-light';
+    src: url('../fonts/interstate-extralight-webfont.eot');
+    src: url('../fonts/interstate-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/interstate-extralight-webfont.woff') format('woff'),
+         url('../fonts/interstate-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/interstate-extralight-webfont.svg#interstateregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.interstate-regular {
+    font-family: 'interstate-regular';
+}
+
+.interstate-bold {
+    font-family: 'interstate-bold';
+}
+
+.interstate-light {
+    font-family: 'interstate-light';
+}

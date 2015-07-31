@@ -1,0 +1,331 @@
+/* IE CSS Styles for IE 7 and IE 8*/
+.non_visible_tablet	{
+	display: none !important;
+}
+.visible_tablet	{
+	display: block !important;
+}
+#header > div > a > img {
+    display: block;
+    float: left;
+	margin: 19px 0 0 0px;
+}
+#header > div > ul {
+	float: right;
+	margin: 0px 24px 0 0;
+} 
+#header > div > ul > li {
+	float: left;
+	list-style: none;
+	color: #FFFFFF;
+} 
+#header > div > ul > li > a {
+	font-size: 16px;
+	line-height: 18px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.spacersMenu {
+	margin: 0 15px 0 15px;
+}
+#contSection1 {
+	height: 391px;
+}
+#applyNow {
+	width: 202px;
+    background-image: url(../img/tab_cont_sect2_cta_bg.jpg);
+    height: 59px;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    line-height: 59px;
+    color: #ffffff;
+    font-size: 20px;
+    display: block; 
+    margin: 0 auto;
+    position: relative;
+    top: -72px; 
+}
+#applyNow > span {
+	background: url(../img/mob_cont_sect2_cta_lock.png) no-repeat left center;
+	line-height: 59px;
+	padding: 7px 0 5px 37px;
+	color: #ffffff;
+	text-align: center;
+}
+#cardArtContent {
+	float: left;
+	margin: 58px 0 0 24px;
+	padding: 0;
+}
+#mainText {
+	float: left;
+	margin: 59px 0px 0 42px;
+}
+#mainText > h2, #mainText > h1, #mainText > p {
+	text-align: left;
+}
+#mainText > h2 {
+	font-size: 28px;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+}
+#mainText > h1 {
+	font-size: 36px;
+	line-height: 49px;
+	margin: 0;
+	padding: 0;
+}
+#mainText > p {
+	font-size: 14px;
+}
+#contSection3 {
+	padding: 41px 0 47px 0
+}
+#contSection3 > div {
+	float: left;
+	width: 50%;
+}
+#contSection3 > div > p {
+	padding-left: 25px;
+	text-align: left;
+	font-size: 20px;
+	line-height: 27px;
+	padding-right: 51px;
+}
+#contSection3 > div > p > span  {
+	text-align: left;
+	padding: 0;
+	font-size: 14px;
+}
+#contSection3 > div > p > sup {
+	font-size: 12px;
+	line-height: 22px;
+	top: -0.7em;
+}
+.column2Space {
+	margin-top: 46px !important;
+}
+#contSection4 {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 110px;
+	padding-top: 58px;
+}
+#contSection4 > div > ul > li {
+	width: 33.33%;
+	float: left;
+	padding: 0px;
+}
+#contSection4 > div > ul > li > h3, #contSection4 > div > ul > li > p  {
+	text-align: left;
+}
+#rowOne > h3, #rowOne > p {
+	padding: 0 20px 0 25px;
+}
+#rowTwo > h3, #rowTwo > p {
+	padding: 0 20px 0 0px;
+}
+#lastProductRow > h3, #lastProductRow > p {
+	padding: 0 20px 0 0px;
+}
+.non_visible_desktop	{
+	display: none !important;
+}
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+}
+#header > div, #contSection1 > div, #contSection3, #contSection4 > div  {
+	width: 937px !important;
+	margin: 0 auto !important;
+}
+#header > div > ul {
+	margin-right: 0px !important;
+}
+#cardArtContent {
+	margin: 48px 0 0 15px !important;
+}
+#mainText {
+    float: left !important;
+    margin: 49px 0 0 42px !important;
+    border-left: 1px solid #66d4f7;
+    height: 260px;
+    padding-left: 51px;
+}
+#mainText > h2 {
+	font-size: 32px !important;
+	line-height: 38px !important;
+}
+#mainText > h1 {
+	font-size: 40px !important;
+	line-height: 53px !important;
+	padding-top: 9px !important;
+}
+#mainText > p { 
+	padding-top: 12px !important;
+}
+#contSection1 {
+	height: 363px !important;
+}
+	#applyNow {
+		width: 202px;
+	    background-image: url(../img/tab_cont_sect2_cta_bg.jpg);
+	    height: 59px;
+	    vertical-align: middle;
+	    text-align: center;
+	    text-decoration: none;
+	    line-height: 59px;
+	    color: #ffffff;
+	    font-size: 20px;
+	    display: block; 
+	    margin: 0 auto;
+	    position: relative;
+	    top: -72px; 
+	}
+	#applyNow > span {
+		background: url(../img/mob_cont_sect2_cta_lock.png) no-repeat left center;
+    	line-height: 59px;
+    	padding: 7px 0 5px 37px;
+    	color: #ffffff;
+    	text-align: center;
+	}
+	#mainText {
+		float: left;
+		margin: 59px 0px 0 42px;
+	}
+#contSection3 > div {
+	float: left;
+	width: 50%;
+}
+#contSection3 {
+	padding: 26px 0 26px !important;
+}
+#contSection4 > div > ul > li {
+	width: 33.33%;
+	float: left;
+	padding: 0px;
+}
+.contSection3SpecialParagraphWidth {
+	padding-right: 96px !important;
+}
+#contSection4 {
+	padding-bottom: 44px !important;
+	padding-top: 32px !important;
+}
+#contSection4 > div > ul > li > h3 {
+	margin-bottom: 5px !important;
+}
+#ftrSection2 {
+	margin: 33px auto;
+	padding-right: 10px;
+	width: 893px;
+	display:block !important;
+}
+#footer {
+	background-color: #fdfdfd;
+}
+#ftrSection1 {
+	width: 100%;
+    height: 30px;
+    background-image: url(../img/desk_ftr_sect1_bg.jpg);
+    background-repeat: repeat-x; 
+    overflow: hidden; 
+}
+#visibleIE {
+	display: block !important;
+}
+#ftrSection2 > h5 {
+    font-size: 16px;
+    line-height: 18px;
+    color: #666666;
+    font-family: Arial;
+    text-transform: uppercase;
+    margin: 0;
+}
+#ftrSection2 > p {
+    font-size: 12px;
+    line-height: 15px;
+    color: #666666;
+    font-family: Arial;
+    margin-top: 20px;
+    text-align: justify;
+}
+#ftrSection2 > p > span {
+    font-size: 13px;
+    line-height: 17px;
+    color: #666666;
+    font-family: Arial;
+    margin-top: 44px;
+} 
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    top: -0.6em;
+}
+#applyNow:hover {
+	background-image: url("../img/tab_cont_sect2_cta_bg_hover.jpg");
+}
+.ie7 sub, .ie7 sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+    top: -0.6em;
+}
+.ie7 #header > div > a > img {
+	margin: 19px 0 0 0px;
+}
+.ie7 .ultest {
+	float: left;
+	margin: 55px 24px 0 0 !important;
+	list-style: none;
+}
+.ultest {
+	margin: 55px 24px 0 0 !important;
+}
+.ie7 .visible_tablet {
+	display: block !important;
+} 
+.ie7 #visibleIE {
+	display: block !important;
+}
+.ie7 #contSection3 > div {
+	float: left;
+	width: 49%;
+}
+.ie7 #cardArtContent, .ie7 #mainText {
+	 float: left;
+} 
+.ie7 #cardArtContent {
+	width: 310px;
+	margin-left: 8px !important;
+}
+.ie7 #mainText {
+	margin-left: 35px !important;
+}
+.ie7 #ftrSection2 > p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #666666;
+    font-family: Arial;
+    margin-top: 20px;
+    text-align: justify;
+}
+.ie7 #ftrSection2 > p > span {
+    font-size: 13px;
+    line-height: 17px;
+    color: #666666;
+    font-family: Arial;
+    margin-top: 44px;
+} 
+.ie7 #applyNow:hover {
+	background-image: url("../img/tab_cont_sect2_cta_bg_hover.jpg");
+}
+.ie7 #applyNow {
+	padding-top: 7px;
+	height: 51px !important;
+}

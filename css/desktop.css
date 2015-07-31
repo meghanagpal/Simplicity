@@ -1,0 +1,121 @@
+/* Medium devices (desktops, 984px and up) */
+@media (min-width: 984px) { 
+	.non_visible_desktop	{
+		display: none !important;
+	}
+	#wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+	#header > div, #contSection1 > div, #contSection3, #contSection4 > div  {
+		width: 937px !important;
+		margin: 0 auto !important;
+	}
+	#header > div > a > img {
+		margin-left: 0px !important;
+	}
+	#header > div > ul {
+		margin-right: 0px !important;
+	}
+	#cardArtContent {
+		margin: 48px 0 0 15px !important;
+	}
+    #cardArtContent {
+        width: 300px;
+	}
+	#mainText {
+	    float: left !important;
+	    margin: 49px 0 0 42px !important;
+	    height: 260px;
+	    padding-left: 51px;
+	}
+	#mainText > h2 {
+		font-size: 32px !important;
+		line-height: 38px !important;
+	}
+	#mainText > h1 {
+		font-size: 40px !important;
+		line-height: 53px !important;
+		padding-top: 9px !important;
+	}
+	#mainText > p { 
+		padding-top: 12px !important;
+	}
+	#contSection1 {
+		height: 363px !important;
+	}
+	#contSection3 {
+		padding: 26px 0 26px !important;
+	}
+	.contSection3SpecialParagraphWidth {
+		padding-right: 96px !important;
+	}
+	#contSection4 {
+		padding-bottom: 44px !important;
+		padding-top: 32px !important;
+	}
+	#contSection4 > div > ul > li > h3 {
+		margin-bottom: 5px !important;
+	}
+	#ftrSection2 {
+		margin: 33px auto;
+    	padding-right: 10px;
+    	width: 893px;
+    	display: block !important;
+	}
+	#footer {
+		background-color: #fdfdfd;
+	}
+	#ftrSection1 {
+		width: 100%;
+	    height: 30px;
+	    background-image: url(../img/desk_ftr_sect1_bg.jpg);
+	    background-repeat: repeat-x; 
+	    overflow: hidden; 
+	}
+	#ftrSection2 > h5 {
+	    font-size: 16px;
+	    line-height: 18px;
+	    color: #666666;
+	    font-family: Arial;
+	    text-transform: uppercase;
+	    margin: 0;
+	}
+	#ftrSection2 > p {
+	    font-size: 16px;
+	    line-height: 22px;
+	    color: #666666;
+	    font-family: Arial;
+	    margin-top: 20px;
+	    text-align: justify;
+	}
+	#ftrSection2 > p > span {
+	    font-size: 13px;
+	    line-height: 17px;
+	    color: #666666;
+	    font-family: Arial;
+	    margin-top: 44px;
+	} 
+	.ie9 sub, sup {
+	    font-size: 75%;
+	    line-height: 0;
+	    position: relative;
+	    vertical-align: baseline;
+	    top: -0.6em;
+	}
+	#applyNow:hover {
+		background-image: url("../img/tab_cont_sect2_cta_bg_hover.jpg");
+	}
+	#ftrSection2 > h5 {
+	    font-size: 12px !important;
+	    line-height: 14px !important;
+	}
+	#ftrSection2 > p {
+	    font-size: 12px !important;  
+	    line-height: 15px !important;
+	}
+	#ftrSection2 > p > span {
+	    font-size: 11px !important;
+
+	} 
+}

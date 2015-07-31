@@ -1,0 +1,191 @@
+/* Small devices (tablets, 600px and up) */
+@media (min-width: 600px) { 
+	.non_visible_tablet	{
+		display: none !important;
+	}
+	.visible_tablet	{
+		display: block !important;
+	}
+	#header > div > a > img {
+	    display: block;
+	    float: left;
+		margin: 19px 0 0 26px;
+	}
+	#header > div > ul {
+		float: right;
+		margin: 55px 24px 0 0;
+	} 
+	#header > div > ul > li {
+		float: left;
+		list-style: none;
+		color: #FFFFFF;
+	} 
+	#header > div > ul > li > a {
+		font-size: 16px;
+		line-height: 18px;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+   p.non_visible_desktop.interstate-light.see{
+        color:#fff;
+    }
+	.spacersMenu {
+		margin: 0 15px 0 15px;
+	}
+	#contSection1 {
+		height: 391px;
+	}
+	#applyNow {
+		width: 221px;
+	    background-image: url(../img/hdr_cta_apply_now.jpg);
+	    height: 35px;
+	    vertical-align: middle;
+	    text-align: center;
+	    text-decoration: none;
+	    line-height: 59px;
+	    color: #ffffff;
+	    font-size: 20px;
+	    display: block; 
+	    margin: 0 auto;
+	    position: relative;
+	    top: 21px; 
+        font-family: 'interstate-light';
+	}
+	#applyNow > span {
+    	line-height: 59px;
+    	color: #ffffff;
+    	text-align: center;
+	}
+	#cardArtContent {
+		float: left;
+		margin: 58px 0 0 24px;
+		padding: 0;
+        width: 290px;
+	}
+	#mainText {
+		float: left;
+		margin: 59px 0px 0 4%;
+		display: block !important;
+		width: 45%;
+	}
+	#mainText > h2, #mainText > h1, #mainText > p {
+		text-align: left;
+	}
+	#mainText > h2 {
+		font-size: 26px;
+		line-height: 38px;
+		margin: 0;
+		padding: 0;
+		font-weight: normal;
+		font-family: 'interstate-regular';
+	}
+	#mainText > h1 {
+		font-size: 30px;
+		line-height: 49px;
+		margin: 0;
+		padding: 0;
+		letter-spacing: -2px;
+		word-spacing: -2px;
+	}
+	#mainText > p {
+		font-size: 20px;
+	}
+	#contSection3 {
+		padding: 41px 0 47px 0
+	}
+	#contSection3 > div {
+		float: left;
+		width: 50%;
+	}
+	#contSection3 > div > p {
+		padding-left: 25px;
+		text-align: left;
+		font-size: 20px;
+		line-height: 27px;
+		padding-right: 51px;
+	}
+	#contSection3 > div > p > span  {
+		text-align: left;
+		padding: 0;
+		font-size: 14px;
+	}
+	#contSection3 > div > p > strong {
+		font-weight: normal !important;
+    	font-family: 'interstate-bold' !important;
+		color: #666666 !important;
+	}
+	#contSection3 > div > p > sup {
+		font-size: 12px;
+		line-height: 22px;
+		top: -0.7em;
+	}
+	.column2Space {
+		margin-top: 46px !important;
+	}
+	#contSection4 {
+		width: 100%;
+		overflow: hidden;
+		padding-bottom: 110px;
+		padding-top: 58px;
+	}
+	#contSection4 > div > ul > li {
+		width: 33.33%;
+		float: left;
+		padding: 0px;
+	}
+	#contSection4 > div > ul > li > h3, #contSection4 > div > ul > li > p  {
+		text-align: left;
+	}
+	#rowOne > h3, #rowOne > p {
+		padding: 0 20px 0 25px;
+	}
+	#rowTwo > h3, #rowTwo > p {
+		padding: 0 20px 0 0px;
+	}
+	#lastProductRow > h3, #lastProductRow > p {
+		padding: 0 20px 0 0px;
+	}
+	#ftrSection2 > h5 {
+	    font-size: 16px;
+	    line-height: 18px;
+	    color: #888888;
+	    font-family: Arial;
+	    text-transform: uppercase;
+	    margin: 0;
+	}
+	#ftrSection2 > p {
+	    font-size: 16px;
+	    line-height: 22px;
+	    color: #888888;
+	    font-family: Arial;
+	    margin-top: 20px;
+	    text-align: justify;
+	}
+	#ftrSection2 > p > span {
+	    font-size: 13px;
+	    line-height: 17px;
+	    color: #888888;
+	    font-family: Arial;
+	    margin-top: 44px;
+	} 
+	sup {
+    	top: -0.4em;
+	}
+	#applyNow:hover {
+		background-image: url("../img/hdr_cta_apply_now.jpg");
+	}
+    
+    #cardArtContent p{
+        margin-top: 34px;
+        padding: 0px 0px 0px 34px;
+        color: #fff;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}
+
+@media screen and (max-width: 989px) {
+    .only_desktop{display: none;}
+    
+} 
+

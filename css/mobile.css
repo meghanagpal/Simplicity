@@ -1,0 +1,2 @@
+@media (min-width:320px) { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:599px) { .non_visible_tablet{display: block;}/* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }

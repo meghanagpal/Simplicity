@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> 
+<%@ Language="JavaScript" %>
+<!-- #include virtual="/_scripts/_tracking.asp" -->
+<!-- #include virtual="/usc/_include/uscGlobals.asp" -->
+<%
+Response.Expires = -1;
+
+var szDefaultBTData = "O*S.B.gAAAf.J.UL.FlGY.KML.h5B.E";                  
+TrackSplash( szDefaultBTData );
+
+var szURL = "/usc/_bt_appredir.asp";
+
+var pApplyNow = new Parameters( szURL, null );
+	pApplyNow.Add("app=UNSOL");
+	pApplyNow.AddQS();
+	pApplyNow.Add("app=UNSOL&sc=4DPZVPK4&m=XCJ1111111W&B=V&ID=3018&uc=DCB&t=t");
+	pApplyNow.Add( "TID", "133075" );
+	
+var szTenTwelve = GetAffiliate();
+if( szTenTwelve != null && szTenTwelve != " " && szTenTwelve != undefined )
+{ 
+	var szM_Code = InsertAffiliate("XCJ1111111W", szTenTwelve);	
+	pApplyNow.Add("m", szM_Code);
+}
+
+pApplyNow.Remove( "ef_id" );
+
+%>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+        <title>Citi Simplicity</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/config.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/desktop.css">
+        <link rel="stylesheet" href="css/tablet.css">
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" href="css/ie.css">
+        <![endif]-->
+		<style>
+		html {
+			display : none;
+		}
+		</style>
+		<script language="javascript">
+		if( self == top ) {
+			document.documentElement.style.display = 'block' ;
+		} else {
+			top.location = self.location ;
+		}
+		
+		function DialOut()
+		{
+			var PhoneNumber = '1-800-492-2127';
+			var num = PhoneNumber;
+			//alert("Number: " + num);
+			location.href="tel:" + num;
+		}
+		</script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="js/vendor/conditionizr-3.0.0.min.js"></script>
+        <script src="js/config.js"></script>
+    </head>
+
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+        <div id="wrapper">
+            <div id="header">
+                <div>
+                    <a class="headerAnchor" href="javascript:void(0);" style="cursor:default;" title="citi&reg;" ><img src="img/mob_hdr_logo.png" alt="citi&reg;" width="91" height="52" /></a>
+                </div>
+            </div>
+            <div id="content">
+                <div id="contSection1">
+                    <div>
+                        <div id="cardArtContent">
+                            <h2 class="interstate-light non_visible_desktop non_visible_tablet">Citi Simplicity<sup>&reg;</sup></h2>
+                            <a class="non_visible_desktop non_visible_tablet" href="<%= pApplyNow.GetStringURL()%>" title="" ><img class="non_visible_desktop non_visible_tablet" src="img/mob_cont_sect1_card_art.png" alt="" width="252" height="154" /></a>
+                           <a class="" href="<%= pApplyNow.GetStringURL()%>" title="" ><img class="non_visible_mobile visible_tablet" src="img/tab_cont_sect1_card_art.png" alt="" width="295" height="180" /></a>
+                            <a id="applyNow" class="non_visible_mobile visible_tablet" href="<%=pApplyNow.GetStringURL()%>" title="Apply Now" ><span></span></a>
+                              
+                            
+                            <p class="only_desktop interstate-light" style="font-size: 18px; font-family: sans-serif;">See Citi Simplicity Terms &amp; Conditions for details</p>
+     
+                         </div>
+                         <div id="mainText">
+                            <h2 class="non_visible_mobile interstate-light visible_tablet">Citi Simplicity<sup class="interstate-light">&reg;</sup></h2>
+                            <h1 class="interstate-bold">No late fees &mdash; EVER <br />No penalty rate &mdash; EVER <br /> No annual fee &mdash; EVER</h1>
+                          <p class="non_visible_desktop interstate-light see" style="font-size: 20px; font-family: sans-serif;">Scroll to see Citi Simplicity Terms &amp; Conditions for details</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contSection2" class="non_visible_tablet">
+                    <a id="anchorBorder"  href="<%= pApplyNow.GetStringURL()%>" title="Apply Now"><span><span class="interstate-bold">Apply Now</span></span></a>
+                </div>
+                <div class="section3">
+                <div id="contSection3">
+                    <div>
+                        <p class="interstate-light contSection3SpecialParagraphWidth"><strong>0%</strong> Intro APR for <strong>18 months</strong> on balance transfers and purchases </p>
+                         <p class="interstate-light">After that, the variable APR will be <strong>12.99% -&nbsp;22.99% </strong>, based on your creditworthiness</p>
+                        
+                    </div>
+                    <div>
+                       <p class="interstate-light">There is a balance transfer fee of 3% of the amount of each transfer, $5 minimum</p>
+                    </div>
+                    </div>
+                </div>
+                <div id="contSection4">
+                    <div>
+                        <ul>
+                            <li id="rowOne">
+
+                                <h3 class="interstate-bold">No late fees. Ever.</h3>
+                                <p class="interstate-light">We won&rsquo;t charge you late fees or a penalty rate just because you missed a payment due date.</p>
+
+                            </li>
+                            <li id="rowTwo">
+                                <h3 class="interstate-bold">Save time when you call.</h3>
+                                <p class="interstate-light">Just say &ldquo;representative&rdquo; when you call, to enjoy fast, personal help, 24 hours a day.</p>
+                            </li>
+                            <li id="lastProductRow">
+                                <h3 class="interstate-bold">Automatic Alerts</h3>
+                                <p class="interstate-light">Set up alerts and we&rsquo;ll remind you about your balance levels, payments due or when you go over your credit limit, by email or directly on your mobile phone.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+			
+                 <div id="contSection2" class="non_visible_tablet">
+                    <a id="anchorBorder"  href="<%= pApplyNow.GetStringURL()%>" title="Apply Now"><span><span class="interstate-bold">Apply Now</span></span></a>
+                </div>
+                <div id="ftrSection2">
+                    
+                    <h5><strong>Citi Simplicity<sup>&reg;</sup> Terms &amp; Conditions</strong></h5>
+                    <p>Introductory rate of 0% for 18 months from date of account opening on purchases and an introductory rate of 0% for 18 months from date of first transfer for balance transfers.  Balance transfers must be completed within  4 months of account opening. After the introductory period ends, the standard purchase APR will be applied to unpaid introductory balances, new purchases and new balance transfers. The standard variable APR for purchases and cash advances is 12.99%, 15.99%, 18.99%, 20.99%, or 22.99%, based on your creditworthiness.  Minimum interest charge &#45; $0.50. Fee for foreign purchases &#45; 3% of the U.S. dollar amount of each purchase made outside the U.S.  Cash advance fee &#45; either $10 or 5% of the amount of each cash advance, whichever is greater.  Balance transfer fee &#45; either $5 or 3% of the amount of each transfer, whichever is greater.  New cardmembers only.  Subject to credit approval. Additional limitations, terms and conditions apply. You will be given further information when you apply.</p>
+                   
+                    <p><span><%= glblCopyRightFootNote %> Citi, Citibank, Citi Simplicity and Citi with Arc Design are registered service marks of Citigroup Inc.</span></p>
+					<p><span>MasterCard and the MasterCard Brand Mark are registered trademarks of MasterCard International Incorporated.</span></p>
+
+                </div>
+            </div>
+        </div>
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+<!-- Begin BlueKai Tag -->
+<iframe name="__bkframe" height="0" width="0" frameborder="0" src="javascript:void(0)"></iframe>
+<script type="text/javascript" src="//tags.bkrtx.com/js/bk-coretag.js"></script>
+<script type="text/javascript">
+
+// INSERT DATA HERE IN THE FORM:
+// bk_addPageCtx("<<SOMEKEY>>", "<<SOMEVALUE>>");
+
+bk_doJSTag(16329, 4);
+
+</script>
+<!-- End BlueKai Tag -->
+<script>document.write('<s'+'cript language="JavaScript" src="//jact.atdmt.com/jaction/138817_USC_2014_Oct_SMP_Responsive_LP_EXT"></s'+'cript>')</script>
+<noscript><iframe src="//iact.atdmt.com/iaction/138817_USC_2014_Oct_SMP_Responsive_LP_EXT" width="1" height="1" frameborder="0" scrolling="No" marginheight="0" marginwidth="0" topmargin="0" leftmargin="0"></iframe></noscript>
+<% var szSiteCatalystPageName = "2014_Oct_USC_Simplicity_Responsive_External"; %>
+<!-- #include virtual="/usc/_include/SiteCatalyst_2011/_SiteCatalyst _pagecode.asp" -->
+</body>
+</html>
